@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.button{
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 23px;   /* 余白       */
+  background    : #000000;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 10px #666666;  /* 影の設定 */
+  border        : 2px solid #000000;
+  font-weight	: bold;
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffffff;     /* 背景色     */
+  background    : #444444;     /* 文字色     */
+}
+.button2{
+	border-radius : 5%;          /* 角丸       */
+  	font-size     : 18pt;
+  	text-align    : center;      /* 文字位置   */
+  	cursor        : pointer;     /* カーソル   */
+  	padding       : 14px 23px;   /* 余白       */
+  	background    : #c0c0c0;     /* 背景色     */
+  	color         : #000000;     /* 文字色     */
+  	line-height   : 1em;         /* 1行の高さ  */
+  	transition    : .3s;         /* なめらか変化 */
+  	box-shadow    : 6px 6px 10px #666666;  /* 影の設定 */
+  	border        : 2px solid #000000;       /* 文字サイズ */
+}
+.button2:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffffff;     /* 背景色     */
+  background    : #444444;     /* 文字色     */
+}
+.msg{
+	color: blue;
+	font-size: 130%;
+	font-weight: bold;
+}
+.error{
+	color: red;
+	font-size: 110%;
+	font-weight: bold;
+}
+.success{
+	color: blue;
+	font-size: 130%;
+	font-weight: bold;
+}
+.sum{
+	background: white;
+	font-size: 150%;
+}
+.button4{
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button4:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}

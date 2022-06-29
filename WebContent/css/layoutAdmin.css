@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+	background: -moz-linear-gradient(top left, #ffffdd, #C0C0C0);
+	background: -webkit-linear-gradient(top left,#ffffdd, #C0C0C0);
+	background: linear-gradient(to bottom right, #ffffdd, #C0C0C0);
+}
+.short_input{
+	border-radius: 3px;
+	width: 150px;
+	height: 20px;
+	font-size: 18px;
+	padding: 2px 15px;
+	background: -moz-linear-gradient(top left, #f4f4f4, #C0C0C0);
+	background: -webkit-linear-gradient(top left,#f4f4f4, #C0C0C0);
+	background: linear-gradient(to bottom right, #f4f4f4, #C0C0C0);
+}
+h1{
+	text-align: center;
+	font-size: 48px;
+	color: 	#000022;
+	background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #7db4e6;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+    width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: serif;
+	position: relative;
+
+}
+textarea {
+	background: -moz-linear-gradient(top left, #f4f4f4, #C0C0C0);
+	background: -webkit-linear-gradient(top left,#f4f4f4, #C0C0C0);
+	background: linear-gradient(to bottom right, #f4f4f4, #C0C0C0);
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: bold;
+}

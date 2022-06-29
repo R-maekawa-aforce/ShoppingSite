@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.img{
+	width: 70%;
+	height: 100px;
+}
+.center{
+	margin-top: 5px;
+	text-align: center;
+}
+.big{
+	margin-top: 5px;
+	text-align: center;
+	width: 150px;
+}

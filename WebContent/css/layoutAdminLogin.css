@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+}
+
+.body{
+	background: -moz-linear-gradient(top left, #ffffdd, #C0C0C0);
+	background: -webkit-linear-gradient(top left,#ffffdd, #C0C0C0);
+	background: linear-gradient(to bottom right, #ffffdd, #C0C0C0);
+	height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
