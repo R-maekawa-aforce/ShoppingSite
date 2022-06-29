@@ -20,9 +20,19 @@
 <form action="../servlets/deleteProduct" method = "post">
 <table>
 	<tr>
-		<th>商品番号 : </th>
-			<td><input type = "text" maxlength="10" name = "product_id" value = "${product_id}" class = "short_input"></td>
-			<td><input type = "submit" name = "search_product" value = "検索" class = "button2" ></td>
+		<c:choose>
+			<c:when test="${not empty product}">
+				<th>商品番号 : </th>
+				<td><input type = "text" maxlength="10" name = "product_id" value = "${product.product_id}" class = "short_input" disabled="disabled"></td>
+				<td><input type = "submit" name = "clear" value = "クリア" class = "button2" ></td>
+
+			</c:when>
+			<c:otherwise>
+			<th>商品番号 : </th>
+				<td><input type = "text" maxlength="10" name = "product_id" value = "${product_id}" class = "short_input"></td>
+				<td><input type = "submit" name = "search_product" value = "検索" class = "button2" ></td>
+			</c:otherwise>
+		</c:choose>
 	</tr>
 
 	<tr>
@@ -36,6 +46,7 @@
 	</tr>
 </table>
 <br>
+	<input type="hidden" name="product_id" value="${product.product_id}">
 	<input type = "submit" name = "adminHome" value = "戻る" form = "back" class = "button">　　　　　　　
 	<input type = "submit" name = "delete_product" value = "商品削除" class = "button" onClick="return Check()">
 </form>
