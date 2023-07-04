@@ -225,4 +225,6 @@ public class ProductDAO extends DAO {
 		return line;
 	}
 
+	// 2023ここを変更したよ
+
 }
